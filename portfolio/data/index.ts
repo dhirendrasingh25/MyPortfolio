@@ -1,8 +1,8 @@
-export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+  export const navItems = [
+      { name: "About", link: "#about" },
+      { name: "Projects", link: "#projects" },
+      { name: "Testimonials", link: "#testimonials" },
+      { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
@@ -204,13 +204,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/dhirendrasingh25"
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/dhirendra-singh-846b83257/"
     },
   ];
