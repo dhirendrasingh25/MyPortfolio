@@ -27,7 +27,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl py-4"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Dhirendra Singh , a Software Developer based in Mumbai , India.
+            Hi! I&apos;m Dhirendra Singh , a final year Computer Engineering Student from Mumbai University.
           </p>
           <a href="#about">
             <MagicButton
