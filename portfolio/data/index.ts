@@ -1,3 +1,6 @@
+import { link } from "fs";
+import { title } from "process";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -49,7 +52,7 @@ export const gridItems = [
   {
     id: 5,
     title: "SIH 2023 Institute Winner",
-    description: "SIH1509 Solution to provide market access to  MSME's ",
+    description: "SIH1509 Solution to provide market access to MSME's ",
     className: "md:col-span-3 md:row-span-2 text-nowrap",
     imgClassName: "",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -68,137 +71,96 @@ export const gridItems = [
   },
 ];
   
-  export const projects = [
-    {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
-    },
-    {
-      id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
-  ];
+export const projects = [
+  {
+    id: 1,
+    title: "MultiFunctionality App",
+    des: "Connect, chat, and compete with others in this versatile app featuring customizable profiles, quizzes, and seamless user interactions.",
+    img: "/multifunproject.png",
+    iconLists: ["/re.svg", "/nodejs.svg", "/mongodb.svg", "/redux.svg","/websocket.svg","/jwt.svg","chartjs.svg","/ui_dark.svg","leaflet.svg"],
+    link: "https://multifunctionality-app.vercel.app",
+  },
+  {
+    id: 2,
+    title: "Linkup Social Media App",
+    des: "Join LinkUp today – connect, share, and engage with others using email-authenticated profiles, all in a seamless, desktop-optimized social experience.",
+    img: "/linkupProject.png",
+    iconLists: ["/re.svg", "/nodejs.svg", "/mongodb.svg", "/nodemailer.jpeg","/jwt.svg", "/redux.svg"],
+    link: "https://linkup-ds.netlify.app",
+  },
+  {
+    id: 3,
+    title: "GraphQL Crud App",
+    des: "Project Management Portal, a web application where users can perform CRUD operations on clients and projects. ",
+    img: "/gqlproject.png",
+    iconLists: ["/re.svg","/nodejs.svg", "/mongodb.svg", "/redux.svg", "/graphhql.svg", "/ts.svg","/ui_dark.svg"],
+    link: "https://github.com/dhirendrasingh25/GraphQL",
+  },
+  {
+    id: 4,
+    title: "Wetube Online Vedio Platform",
+    des: "Wetube a Vedio Streaming Website made using ReactJs , Material UI 5 and RapidAPI",
+    img: "/wetubeproject.png",
+    iconLists: ["/re.svg","rapidapi.svg"],
+    link: "https://wetube-dhirendrasingh-2023.netlify.app/",
+  },
+];
   
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
+export const testimonials = [
+  {
+    quote:"During his business development internship, he played a pivotal role in conducting in-depth market analysis and identifying growth opportunities. His ability to design and implement strategic marketing campaigns, including email outreach, SEO, and social media, helped streamline our business initiatives and boost engagement.",
+    name: "Prof. Vinayak Shete",
+    title: "Director of JKB Education & IT Services",
+    profile:"/vnyk.jpeg",
+    linkedin:"https://www.linkedin.com/in/vinayakshetejkb/",
+  },
+  {
+    quote:"Dhirendra’s remarkable adaptability and technical skills truly set him apart. As a key contributor to our development team, he consistently demonstrated a strong work ethic and innovative approach to problem-solving. His dedication to refining our platforms and leading critical projects has been invaluable. I highly recommend Dhirendra for any team looking for a tech-savvy leader with a passion for excellence",
+    name: "Harsh Vishwakarma",
+    title: "CTO of Vighnesh Inc",
+    profile:"/harsh.jpeg",
+    linkedin:"https://www.linkedin.com/in/harshh-vishwakarma/",
+  },
+  {
+    quote:"Dhirendra demonstrated remarkable dedication by conducting extensive ground-level research, which played a pivotal role in laying the foundation for my new startup, SaviDurga Sarees. Their keen insights and strategic input were instrumental in shaping the business during its formative stages.",
+    name: "Sudhanshu Arora",
+    // title: "Chief Global Sales Officer - Sodexo Offshore",
+    title: "Founder - SaviDurga Sarees | Chief Global Sales Officer - Sodexo Offshore",
+    profile:"/sudhanshu.jpeg",
+    linkedin:"https://www.linkedin.com/in/sudhanshu-arora-56a61347/",
+  },
+];
   
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
-  ];
+export const workExperience = [
+  {
+    id: 1,
+    title: "Frontend Engineer Intern",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Mobile App Dev - JSM Tech",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Freelance App Dev Project",
+    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Lead Frontend Developer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+];
   
 export const socialMedia = [
   {

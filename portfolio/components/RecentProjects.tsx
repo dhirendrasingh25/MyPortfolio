@@ -7,7 +7,7 @@ const RecentProjects = () => {
   return (
     <div id='projects' className='py-20 '>
         <h1 className="heading">
-            A small selection of{" "}
+            A small selection of my{" "}
             <span className="text-purple">recent projects</span>
         </h1>
         <div className="flex flex-wrap items-center justify-center p-4 gap-y-8 gap-x-24 mt-10">
@@ -39,7 +39,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className=" text-wrap lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",

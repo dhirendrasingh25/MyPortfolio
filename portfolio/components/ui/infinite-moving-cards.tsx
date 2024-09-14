@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -14,6 +15,8 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    profile: string;
+    linkedin: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -104,32 +107,58 @@ export const InfiniteMovingCards = ({
             // change to idx cuz we have the same name
             key={idx}
           >
+            
             <blockquote>
               <div
                 aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+                className="user-select-none flex flex-col justify-between  -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               {/* change text color, text-lg */}
+              <div>
+
+              
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                {/* add this div for the profile img */}
-                <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
+              </div>
+              <div className="flex flex-row justify-between items-center">
+
+              
+              <div className="flex flex-row w-full justify-between items-center">
+                <div className="relative z-20 mt-6 flex flex-row items-center">
+                  {/* add this div for the profile img */}
+                  <div className="me-3">
+                    <img src={item.profile} className="rounded-full w-12 h-12" alt="profile" />
+                  </div>
+                  <span className="flex flex-col gap-1">
+                    {/* change text color, font-normal to font-bold, text-xl */}
+                    <span className="text-xl font-bold leading-[1.6] text-white">
+                      {item.name}
+                    </span>
+                    {/* change text color */}
+                    <span className=" text-sm leading-[1.6] text-white-200 font-normal">
+                      {item.title}
+                    </span>
+                  </span>
                 </div>
-                <span className="flex flex-col gap-1">
-                  {/* change text color, font-normal to font-bold, text-xl */}
-                  <span className="text-xl font-bold leading-[1.6] text-white">
-                    {item.name}
-                  </span>
-                  {/* change text color */}
-                  <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.title}
-                  </span>
-                </span>
+              
+
+              </div>
+              <div>
+                <Link href={item.linkedin}>
+                  <button
+                    className="relative z-20 mt-6 text-sm text-white font-normal underline"
+                    
+                  >
+                    <img src="/link.svg" className="w-10 h-10 bg-[#0077B5] rounded-lg"  alt="linkedin" />
+                  </button>  
+                  </Link>
+              </div>
               </div>
             </blockquote>
+
+              
+            
           </li>
         ))}
       </ul>
