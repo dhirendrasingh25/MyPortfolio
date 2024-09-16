@@ -45,7 +45,7 @@ const Clients = () => {
                 <div className="">
                   <img
                     src="/jkb_logo.png"
-                    className="h-14 w-full"
+                    className="h-14  w-36"
                   />
                 </div>
               </div>
