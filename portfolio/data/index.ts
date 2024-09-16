@@ -1,5 +1,3 @@
-import { link } from "fs";
-import { title } from "process";
 
 export const navItems = [
     { name: "About", link: "#about" },
@@ -110,14 +108,14 @@ export const testimonials = [
   {
     quote:"During his business development internship, he played a pivotal role in conducting in-depth market analysis and identifying growth opportunities. His ability to design and implement strategic marketing campaigns, including email outreach, SEO, and social media, helped streamline our business initiatives and boost engagement.",
     name: "Prof. Vinayak Shete",
-    title: "Director of JKB Education & IT Services",
+    title: "Director - JKB Education & IT Services",
     profile:"/vnyk.jpeg",
     linkedin:"https://www.linkedin.com/in/vinayakshetejkb/",
   },
   {
-    quote:"Dhirendra’s remarkable adaptability and technical skills truly set him apart. As a key contributor to our development team, he consistently demonstrated a strong work ethic and innovative approach to problem-solving. His dedication to refining our platforms and leading critical projects has been invaluable. I highly recommend Dhirendra for any team looking for a tech-savvy leader with a passion for excellence",
+    quote:"Dhirendra’s remarkable adaptability and technical skills truly set him apart. As a key contributor to our development team, he consistently demonstrated a strong work ethic and innovative approach to problem-solving. His dedication to refining our platforms and leading critical projects has been invaluable. I highly recommend Dhirendra for any team looking for a tech-savvy individual with a passion for excellence",
     name: "Harsh Vishwakarma",
-    title: "CTO of Vighnesh Inc",
+    title: "CTO - Vighnesh Inc",
     profile:"/harsh.jpeg",
     linkedin:"https://www.linkedin.com/in/harshh-vishwakarma/",
   },

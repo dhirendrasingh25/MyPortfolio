@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './MagicButton'
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLinkedinIn, FaLocationArrow } from "react-icons/fa6";
 
 
 const Hero = () => {
@@ -35,7 +35,6 @@ const Hero = () => {
               position="right"
             />
           </a>
-
       </div>
       <div className='w-full sm:mt-0 mt-10 flex items-center justify-center'>
       <img src="/image.png" alt="b1" className="w-[65%] rounded-full h-[80%] border border-white/[0.1] drop-shadow-2xl "/>
