@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="w-full  pb-10" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[55vw]">
-         Let's build<span className="text-purple"> your</span> vision and take it to new heights
+         Let&apos;s build<span className="text-purple"> your</span> vision and take it to new heights
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Let's team up today to create something amazing
+          Let&apos;s team up today to create something amazing
         </p>
         <div className="flex flex-row pb-32 ">
             <div className="flex px-2 items-center">
