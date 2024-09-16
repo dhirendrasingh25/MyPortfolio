@@ -12,13 +12,12 @@ const Approach = () => {
         My <span className="text-purple">approach</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
-        >
+      <Card
+        title="Planning & Strategy"
+        icon={<AceternityIcon order="Phase 1" />}
+        des="Mapping out goals, target audience, and key functionalities. Discussing things like structure, navigation, and content requirements. Initial phase focuses on thorough market analysis, identifying competitive edges, and establishing clear, actionable objectives tailored to stakeholder expectations."
+      >
+
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
@@ -27,10 +26,9 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Transitioning from planning to execution, this phase involves the active development of core functionalities. Regular updates and iterative reviews ensure alignment with the project goals. Focus is on backend integration, frontend layout implementation, and ensuring responsive design across all devices."
         >
+
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
@@ -44,9 +42,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Final phase culminates in the polishing of the developed features, rigorous testing for bugs, and preparing deployment strategies. The project is finalized with a focus on optimizing performance and security. Launch involves post-deployment monitoring and immediate responsiveness to operational feedback."
         >
           <CanvasRevealEffect
             animationSpeed={3}
