@@ -1,8 +1,9 @@
 
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Work Experience", link: "#work-experience" },
     { name: "Contact", link: "#contact" },
 ];
   
@@ -68,7 +69,7 @@ export const gridItems = [
     spareImg: "",
   },
 ];
-  
+
 export const projects = [
   {
     id: 1,
@@ -103,7 +104,7 @@ export const projects = [
     link: "https://wetube-dhirendrasingh-2023.netlify.app/",
   },
 ];
-  
+
 export const testimonials = [
   {
     quote:"During his business development internship, he played a pivotal role in conducting in-depth market analysis and identifying growth opportunities. His ability to design and implement strategic marketing campaigns, including email outreach, SEO, and social media, helped streamline our business initiatives and boost engagement.",
