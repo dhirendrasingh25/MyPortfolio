@@ -1,3 +1,4 @@
+import AccountBar from "@/components/AccountBar";
 import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
@@ -15,6 +16,7 @@ export default function Home() {
         <FloatingNav navItems={navItems}/>
         <Hero />
         <Grid/>
+        <AccountBar />  
         <RecentProjects />
         <Clients/>
         <Experience/>
