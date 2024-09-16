@@ -58,7 +58,7 @@ const Experience = () => {
           <div className="flex sm:flex-row flex-col justify-around space-x-4 p-6 w-full ">
             <div className="w-full flex justify-center py-4 sm:flex-none  sm:w-[30%] sm:py-0">
               <img
-                src='/exp1.svg'
+                src='/exp4.svg'
                 className="lg:w-32 md:w-20 w-16"
               />
             </div>
