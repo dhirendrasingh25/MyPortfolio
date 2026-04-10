@@ -162,7 +162,7 @@ export const BentoGridItem = ({
                 className="absolute -bottom-5 right-0  block"
               >
               </div>
-              <Link href="https://drive.google.com/file/d/1h_dAOzFqGiNDjK_9US6pTOy6wwd7evOY/view?usp=share_link">
+              <Link href="https://drive.google.com/file/d/1pIVlARksB5mk-2BfbXijH8knfN1095fM/view?usp=share_link">
               <MagicButton
                 title="View Resume"
                 icon={<GrDocumentText />}
