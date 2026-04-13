@@ -48,7 +48,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["SQL", "Python","Java" ,"TypeScript"];
+  const leftLists = ["AI Agents", "Python","Java" ,"TypeScript"];
   const rightLists = ["AWS", "MERN", "GraphQL" ,"NextJs"];
 
   const [copied, setCopied] = useState(false);
@@ -162,7 +162,7 @@ export const BentoGridItem = ({
                 className="absolute -bottom-5 right-0  block"
               >
               </div>
-              <Link href="https://drive.google.com/file/d/1pIVlARksB5mk-2BfbXijH8knfN1095fM/view?usp=share_link">
+              <Link href="https://drive.google.com/file/d/1m9UKW_7Syn33SrZUNVTgaYoiFzZAMFpb/view?usp=share_link">
               <MagicButton
                 title="View Resume"
                 icon={<GrDocumentText />}

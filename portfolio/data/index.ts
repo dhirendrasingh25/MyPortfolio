@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "BachatPro - Fintech AI App",
+    des: "Developed a Progressive Web App (PWA) for personal finance management featuring bill image classification using OCR, AI-driven financial recommendations.",
+    img: "/bachatpro.png",
+    iconLists: ["/re.svg","rapidapi.svg", "/nodejs.svg", "/mongodb.svg", "/redux.svg",],
+    link: "https://vcet-24-o-won.vercel.app",
+  },
+  {
+    id: 2,
     title: "MultiFunctionality App",
     des: "Connect, chat, and compete with others in this versatile app featuring customizable profiles, quizzes, and seamless user interactions.",
     img: "/multifunproject.png",
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://multifunctionality-app.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Linkup Social Media App",
     des: "Join LinkUp today – connect, share, and engage with others using email-authenticated profiles, all in a seamless, desktop-optimized social experience.",
     img: "/linkupProject.png",
@@ -88,21 +96,14 @@ export const projects = [
     link: "https://linkup-ds.netlify.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "GraphQL Crud App",
     des: "Project Management Portal, a web application where users can perform CRUD operations on clients and projects. ",
     img: "/gqlproject.png",
     iconLists: ["/re.svg","/nodejs.svg", "/mongodb.svg", "/redux.svg", "/graphhql.svg", "/ts.svg","/ui_dark.svg"],
     link: "https://github.com/dhirendrasingh25/GraphQL",
   },
-  {
-    id: 4,
-    title: "Wetube Online Vedio Platform",
-    des: "Wetube a Vedio Streaming Website made using ReactJs , Material UI 5 and RapidAPI",
-    img: "/wetubeproject.png",
-    iconLists: ["/re.svg","rapidapi.svg"],
-    link: "https://wetube-dhirendrasingh-2023.netlify.app/",
-  },
+  
 ];
 
 export const testimonials = [
